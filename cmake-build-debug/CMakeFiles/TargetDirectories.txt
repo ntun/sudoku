@@ -1,3 +1,0 @@
-C:/Users/naing/Documents/msi GE60 2PC _backup/Naing 2/IWU/Sudoku/sudoku/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/naing/Documents/msi GE60 2PC _backup/Naing 2/IWU/Sudoku/sudoku/cmake-build-debug/CMakeFiles/sudoku.dir
-C:/Users/naing/Documents/msi GE60 2PC _backup/Naing 2/IWU/Sudoku/sudoku/cmake-build-debug/CMakeFiles/rebuild_cache.dir
