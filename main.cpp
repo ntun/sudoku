@@ -12,7 +12,8 @@ using namespace std;
 
 int main() {
 
-	for (int c = 1; c <= 10; c++) {
+    int upper_bound = 10; // replace with any desired number of iterations
+	for (int c = 1; c <= upper_bound; c++) {
 		//cout << c << ": " << endl;
 
 		for (int row = 1; row <= 9; ++row) {
@@ -66,7 +67,7 @@ int main() {
 		//cout << endl;
 
 
-		if (c == 1 || c == 10) {
+		if (c == 1 || c == upper_bound) {
 			if (c == 1 ) {
 				cout << "PUZZLE: ";
 			}
