@@ -14,7 +14,7 @@ Sudoku is a game involving so many constraints. A sudoku puzzle involves 9 rows,
 
 # Motivation
 
-Why am I building this whole 9x9 Sudoku-solver program when I can just easily hard-code backtracking algorithm? Yes, that would give me a solution but that's not how a person would normally solve. The golden rule of solving Sudoku by hand is to __never guess__ and backtracking does a lot of guessing. If I am to apply backtracking with pencil and paper, I would have to erase so many times on a sheet of paper. That's not what I want. My goal is to solve Sudoku puzzle without making a single guess or erase. I am trying to write a program that will solve a 9x9 sudoku puzzle like a pro, not in a naive brute-foce way. 
+Why am I building this whole 9x9 Sudoku-solver program when I can just easily hard-code backtracking algorithm? Yes, that would give me a solution but that's not how a person would normally solve. The golden rule of solving Sudoku by hand is to __never guess__ and backtracking does a lot of guessing. If I am to apply backtracking with pencil and paper, I would have to erase so many times on a sheet of paper. That's not what I want. My goal is to solve Sudoku puzzle without making a single guess or erase. I am trying to write a program that will solve a 9x9 sudoku puzzle like a pro, not in a naive brute-force way. 
 
 # Constraint elimination
 
