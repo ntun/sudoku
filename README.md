@@ -18,7 +18,7 @@ Why am I building this whole 9x9 Sudoku-solver program when I can just easily ha
 
 # Constraint elimination
 
-Each (empty) block has constraints in the form of numbers that appear in the same row, column, and subsquare, we can eliminate those numbers a choice to fill in that empty block. We will call the row, column, and subsquare that a particular block belongs to as its __domain__.
+Each (empty) block has constraints in the form of numbers that appear in the same row, column, and subsquare. We can eliminate those numbers among the choices of numbers to fill in that empty block. We will call the row, column, and subsquare that a particular block belongs to as its __domain__.
 
 For instance, an empty block would originally have numbers 1 to 9 to fill in as an option. If number 1 appears somewhere in its domain, then, the options would be 2-9 only because 1 cannot be filled in the block anymore as per the Sudoku rules. We will apply such ''constraint elimination'' rules throughout this program.
 
