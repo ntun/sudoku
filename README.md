@@ -51,7 +51,7 @@ Consider the scenario where there are four empty blocks A, B, C, D in a particul
 
 ### Upper bound for nested operations
 
-If these nested operations can give arise to multiple subsolutions of the puzzle (which is what this program is doing), I wonder about the upper bound fo the number of iterations needed in order to fully solve the puzzle. I am not able to come up with such an upper bound, but I suspect it would require some deep mathematical analysis. It could be a research topic that anyone interested in Sudoku could take on.
+If these nested operations can give arise to multiple subsolutions of the puzzle (which is what this program is doing), I wonder about the upper bound for the number of iterations needed in order to fully solve the puzzle. I am not able to come up with such an upper bound, but I suspect it would require some deep mathematical analysis. It could be a research topic that anyone interested in Sudoku could take on.
 
 # Future Contributions
 
