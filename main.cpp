@@ -46,6 +46,11 @@ int main() {
 		}
 
 		Sudoku test;
+		if (c == 1) {
+		    cout << "PUZZLE: " << endl;
+		    test.printSudoku();
+		    cout << endl;
+		}
 
 		//cout << endl;
 		//cout << "ROW PROPOGATE: " << endl;
@@ -67,17 +72,12 @@ int main() {
 		//cout << endl;
 
 
-		if (c == 1 || c == upper_bound) {
-			if (c == 1 ) {
-				cout << "PUZZLE: ";
-			}
+		if (c == upper_bound) {
+		    cout << "SOLUTION: ";
 
-			if (c == 10) {
-				cout << "SOLUTION: ";
-			}
-			cout << endl;
-			test.printSudoku();
-			cout << endl;
+		    cout << endl;
+		    test.printSudoku();
+		    cout << endl;
 		}
 		//cout << endl;
 	}
